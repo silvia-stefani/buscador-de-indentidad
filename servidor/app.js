@@ -21,7 +21,7 @@ app.post("/getData", (req, res, next) => {
 
 
   //3. Devolver los datos
-  res.json({...req.body, clave: "valor"});
+  res.json({ google: { q: "perro" }, twitter: { q: "twits" }, hibp: { p: "datos"}});
  });
 
 app.listen(8000, () => {

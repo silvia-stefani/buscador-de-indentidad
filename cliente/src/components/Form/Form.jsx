@@ -30,6 +30,13 @@ export default function Form({showDash, hide}) {
     const handleClickName = (e) => {
         setValues({...values, name: name})
     }
+    
+    const handleRemove = (key) => {
+        const newValues = {...values};
+        delete newValues[key];
+        setValues({...newValues});
+    }
+
 
     const fetchData = async () => {
         try {
@@ -130,7 +137,7 @@ export default function Form({showDash, hide}) {
                     {Object.keys(values).map(function(key, index) {
                         let value = values[key];
                         return (
-                            <div  key={index}>
+                            <div  key={index} onClick={()=>handleRemove(key)}>
                                 <p>{key}:{value}</p>
                             </div>
                         );
