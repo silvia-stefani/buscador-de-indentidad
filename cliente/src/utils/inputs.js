@@ -27,7 +27,3 @@ export const inputInfo = [
     }
 ]
 
-export const values = [
-    
-]
-

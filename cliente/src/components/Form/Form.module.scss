@@ -60,13 +60,18 @@
                     color: white;
                     margin: 0 .5rem;
                     border-radius: .3rem;
+
+                    .value {
+                        margin-right: .5rem;
+                    }
+
+                    .delete_data {
+                        cursor: pointer;
+                    }
                 }
             }
 
-            .button {
-                grid-column: 1 / -1;
-                grid-row: -2 / -1;
-            }
+            .button {}
         }
 
     }

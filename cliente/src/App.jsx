@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
-import Form from '../components/Form/Form'
-import Dashboard from '../components/Dashboard/Dashboard'
+import Form from './components/Form/Form'
+import Dashboard from './components/Dashboard/Dashboard'
 
 import styles from './App.module.scss';
 
