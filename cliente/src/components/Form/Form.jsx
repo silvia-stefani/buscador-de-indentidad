@@ -7,7 +7,10 @@ import {project} from '/public/utils/project.js'
 import Input from './Input/Input';
 import Dashboard from '../Dashboard/Dashboard';
 
-import {inputInfo} from '/public/utils/inputs.js'
+import {inputInfo} from '/public/utils/inputs.js';
+
+const SERVER_URL = "http://localhost:8000";
+
 
 export default function Form({showDash, hide}) {
 
@@ -20,21 +23,31 @@ export default function Form({showDash, hide}) {
     const [identification, setIdentification] = useState('');
     const [other, setOther] = useState('');
 
-    ///// Array de datos
+    const [values, setValues] = useState({});
 
-    const [value, setValue] = useState([]);
+    const [returndata, setReturndata] = useState({});
 
-    const handleClick = (e) => {
-        
-        setValue([ name, mail, phone, identification, other])
+    const handleClickName = (e) => {
+        setValues({...values, name: name})
     }
 
-    const fetchData = () => {
-
-    fetch("http://localhost:8000/getData/")
-      .then(res => res.json())
-      .then(showDash)
-      
+    const fetchData = async () => {
+        try {
+            const finalurl = SERVER_URL + "/getData/";
+            const res = await fetch(finalurl, {
+              method: 'POST', 
+              headers:{
+                  "Content-Type": "application/json",
+              },
+              body: JSON.stringify(values)
+            });
+            const newdata = await res.json();
+            console.log(newdata)
+            setReturndata(newdata);
+        } catch (err) {
+            console.log("No se ha podido acceder al api.");
+            console.log(err);
+        }
     }
 
     return (
@@ -50,18 +63,7 @@ export default function Form({showDash, hide}) {
                 <div className={styles.inputs}>
                     <div className={styles.text_inputs}>
                         
-                        <Input type="text"
-                        
-                        icon={inputInfo[0].icon}
-                        name={inputInfo[0].name}
-                        example={inputInfo[0].example}
-                        onChange={e => setName(e.target.value)}
-
-                        onPress={() => {
-                            handleClick()
-                        }}
-
-                        />
+                        <Input type="text" icon={inputInfo[0].icon} name={inputInfo[0].name} example={inputInfo[0].example} onChange={e => setName(e.target.value)}  onPress={() => {  handleClickName() }} />
 
                         <Input type="text"
                         
@@ -125,30 +127,16 @@ export default function Form({showDash, hide}) {
                 <div className={styles.results}>
                     
                     <div className={styles.data_row}>
-                        
-                        {value.map((data, i) => (
-
-                            data === '' ?
-
-                            null
-
-                            :
-                            
-                            <div key={i} className={styles.data_in}>
-                                
-                                <p style={{marginRight: ".5rem"}}>{data}</p>
-                                <i className="ph-x" 
-                                
-                                style={{color: "white"}}
-                                onClick={(e) => {
-                                    ///// eliminar dato del array "value"
-                                }}
-                                />
-                            
+                    {Object.keys(values).map(function(key, index) {
+                        let value = values[key];
+                        return (
+                            <div  key={index}>
+                                <p>{key}:{value}</p>
                             </div>
-                        ))}
-
+                        );
+                    })}
                     </div>
+                </div>
                     <button className={styles.button} onClick={fetchData}>
 
                         Realizar búsqueda
@@ -157,9 +145,6 @@ export default function Form({showDash, hide}) {
                 </div>
                 
             </div>
-
-            
-        </div>
     )
     
 }
