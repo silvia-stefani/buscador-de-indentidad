@@ -31,7 +31,7 @@ export default function Form({showDash, hide}) {
 
     const fetchData = () => {
 
-    fetch("https://apidesilvia.com/googleSearch/")
+    fetch("http://localhost:8000/getData/")
       .then(res => res.json())
       .then(showDash)
       
