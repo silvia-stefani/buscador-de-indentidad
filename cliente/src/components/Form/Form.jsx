@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import { Routes, Route, Link } from "react-router-dom";
 
 import styles from './Form.module.scss';
 
@@ -12,7 +13,7 @@ import {inputInfo} from '/src/utils/inputs.js';
 import { SERVER_URL } from "../../constants/constants";
 
 
-export default function Form({showDash, hide}) {
+export default function Form({hide}) {
 
 
     ///// Contiene y cambia los datos
@@ -116,15 +117,11 @@ export default function Form({showDash, hide}) {
                         );
                     })}
                     </div>
-                
-                    <button className={styles.button} onClick={fetchData}>
-
-                        Realizar búsqueda
-                        
-                    </button>
+                    <Link to="/dashboard">
+                        <button className={styles.button} onClick={fetchData}>Realizar búsqueda</button>
+                    </Link>
                 </div>
             </div>    
         </div>
     )
-    
 }
