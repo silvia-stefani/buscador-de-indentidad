@@ -19,18 +19,32 @@ app.get("/", function(req, res){
     res.sendFile(__dirname + "/index.html");
 });
 
+app.get("/getData", function(req, res){
+  res.sendFile(__dirname + "/index.html");
+});
+
 app.post("/getData", async (req, res, next) => {
   //1. coger los params de req.params
   console.log(req.body);
 
   //2. Llamadas a apis (Google, HIBP, Twitter, ...)
   let hibpans;
-  let googleans = {}; //await apigoogle("Enrique Barra Arias");
-  let twitterans = {}; //await apitwitter("Enrique");
+  let twitterans;
+  let googleans;
+  //GOOGLE
+  googleans = {}; //await apigoogle("Enrique Barra Arias");
+  //TWITTER
   try{
-    //hibpans = await apihibp("enrique.barra.arias@gmail.com");
+    twitterans = {}; //await apitwitter("Enrique");
+  } catch(err){
+    console.log(err);
+    twitterans = err;
+  }
+  //HIBP
+  try{
+    hibpans = await apihibp("enrique.barra.arias@gmail.com");
     //hibpans = await apihibp("barraorion");
-    hibpans = await apihibp("65978599");
+    //hibpans = await apihibp("65978599");
   } catch(err){
     console.log(err);
     hibpans = err;
