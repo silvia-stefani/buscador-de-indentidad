@@ -26,25 +26,45 @@ app.get("/getData", function(req, res){
 app.post("/getData", async (req, res, next) => {
   //1. coger los params de req.params
   console.log(req.body);
+  req.body.name="Enrique"
+  req.body.email="enrique.barra.arias@gmail.com"
 
   //2. Llamadas a apis (Google, HIBP, Twitter, ...)
   let hibpans;
   let twitterans;
-  let googleans;
+  let googlename
+  let googledni;
+  let googletlf;
+  let googleemail;
   //GOOGLE
-  googleans = {}; //await apigoogle("Enrique Barra Arias");
+  if(req.body.name!==undefined){
+    googlename = await apigoogle(req.body.name);
+  }
+  if(req.body.dni!==undefined) {
+    googledni = await apigoogle(req.body.dni);
+  }
+  if(req.body.tlf!==undefined){
+    googletlf = await apigoogle(req.body.tlf);
+  }
+  if(req.body.email!==undefined) {
+    googleemail = await apigoogle(req.body.email);
+  }
   //TWITTER
   try{
-    twitterans = {}; //await apitwitter("Enrique");
+    if(req.body.name!==undefined) {
+      twitterans = await apitwitter(req.body.name);
+    }
   } catch(err){
     console.log(err);
     twitterans = err;
   }
   //HIBP
   try{
-    hibpans = await apihibp("enrique.barra.arias@gmail.com");
-    //hibpans = await apihibp("barraorion");
-    //hibpans = await apihibp("65978599");
+    if(req.body.email!==undefined) {
+      hibpans = await apihibp(req.body.email);
+      //hibpans = await apihibp("barraorion");
+      //hibpans = await apihibp("65978599");
+    }
   } catch(err){
     console.log(err);
     hibpans = err;
@@ -52,8 +72,9 @@ app.post("/getData", async (req, res, next) => {
   
 
   //3. Devolver los datos
-  res.json({ google: googleans, twitter: twitterans, hibp: hibpans});
- });
+  //res.json({ googlename, googledni, googleemail, googletlf, twitterans, hibpans});
+  res.json({ hibpans }); 
+});
 
 app.listen(config.web.port, () => {
  console.log("Server running on port " + config.web.port);

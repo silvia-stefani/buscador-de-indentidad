@@ -1,0 +1,384 @@
+{
+    "search_metadata": {
+        "id": "62910bf2fa867558d8269a73",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/d264cf610f050ec5/62910bf2fa867558d8269a73.json",
+        "created_at": "2022-05-27 17:35:46 UTC",
+        "processed_at": "2022-05-27 17:35:46 UTC",
+        "google_url": "https://www.google.com/search?q=Silvia+Stefani+Llabr%C3%A9s&oq=Silvia+Stefani+Llabr%C3%A9s&hl=en&gl=us&sourceid=chrome&ie=UTF-8",
+        "raw_html_file": "https://serpapi.com/searches/d264cf610f050ec5/62910bf2fa867558d8269a73.html",
+        "total_time_taken": 0.76
+    },
+    "search_parameters": {
+        "engine": "google",
+        "q": "Silvia Stefani Llabrés",
+        "google_domain": "google.com",
+        "hl": "en",
+        "gl": "us",
+        "device": "desktop"
+    },
+    "search_information": {
+        "organic_results_state": "Results for exact spelling",
+        "query_displayed": "Silvia Stefani Llabrés",
+        "total_results": 7430,
+        "time_taken_displayed": 0.36
+    },
+    "inline_images": [
+        {
+            "link": "https://www.google.com/search?q=Silvia+Stefani+Llabr%C3%A9s&hl=en&gl=us&tbm=isch&source=iu&ictx=1&vet=1&fir=SyZXn4wKQNfRZM%252Cnr_dwKyQuyNVzM%252C_%253BSqRvcUOxKutNjM%252CPc6wPtngLJ95jM%252C_%253BaQDdwiHPmToNNM%252CHJ9MfGbXtKqDnM%252C_%253BpEzQp8ySvIYF_M%252CHJ9MfGbXtKqDnM%252C_%253Be8WDotNvYnlIcM%252CHJ9MfGbXtKqDnM%252C_%253BqOGy-W9-9EGAJM%252C1EYK30t17Pl4FM%252C_%253BzfJNjJW0wF7UlM%252CHJ9MfGbXtKqDnM%252C_%253B4CG9IUd7IA07dM%252CHJ9MfGbXtKqDnM%252C_%253B6Q6moISVpn5sRM%252CHJ9MfGbXtKqDnM%252C_%253BeI7haDmjyfBotM%252CHJ9MfGbXtKqDnM%252C_&usg=AI4_-kSXgNP0UbwXyRXbxGiQw173FhParw&sa=X&ved=2ahUKEwiv9cjkm4D4AhWKhIkEHZboCuQQ9QF6BAgFEAE#imgrc=SyZXn4wKQNfRZM",
+            "source": "https://www.flickr.com/photos/silviastefani/6836637443/",
+            "thumbnail": "https://serpapi.com/searches/62910bf2fa867558d8269a73/images/a336824c812b6b907c15d23bd95b3e96aea2499cbf122a4069845a102153b47f.jpeg"
+        },
+        {
+            "link": "https://www.google.com/search?q=Silvia+Stefani+Llabr%C3%A9s&hl=en&gl=us&tbm=isch&source=iu&ictx=1&vet=1&fir=SyZXn4wKQNfRZM%252Cnr_dwKyQuyNVzM%252C_%253BSqRvcUOxKutNjM%252CPc6wPtngLJ95jM%252C_%253BaQDdwiHPmToNNM%252CHJ9MfGbXtKqDnM%252C_%253BpEzQp8ySvIYF_M%252CHJ9MfGbXtKqDnM%252C_%253Be8WDotNvYnlIcM%252CHJ9MfGbXtKqDnM%252C_%253BqOGy-W9-9EGAJM%252C1EYK30t17Pl4FM%252C_%253BzfJNjJW0wF7UlM%252CHJ9MfGbXtKqDnM%252C_%253B4CG9IUd7IA07dM%252CHJ9MfGbXtKqDnM%252C_%253B6Q6moISVpn5sRM%252CHJ9MfGbXtKqDnM%252C_%253BeI7haDmjyfBotM%252CHJ9MfGbXtKqDnM%252C_&usg=AI4_-kSXgNP0UbwXyRXbxGiQw173FhParw&sa=X&ved=2ahUKEwiv9cjkm4D4AhWKhIkEHZboCuQQ9QF6BAgUEAE#imgrc=SqRvcUOxKutNjM",
+            "source": "https://issuu.com/msilviastefani/docs/photoshop",
+            "thumbnail": "https://serpapi.com/searches/62910bf2fa867558d8269a73/images/a336824c812b6b90ef5e0fc22bfdf8b8261ff5e3bb1e3d2fc780808cc290e4ef.jpeg"
+        },
+        {
+            "link": "https://www.google.com/search?q=Silvia+Stefani+Llabr%C3%A9s&hl=en&gl=us&tbm=isch&source=iu&ictx=1&vet=1&fir=SyZXn4wKQNfRZM%252Cnr_dwKyQuyNVzM%252C_%253BSqRvcUOxKutNjM%252CPc6wPtngLJ95jM%252C_%253BaQDdwiHPmToNNM%252CHJ9MfGbXtKqDnM%252C_%253BpEzQp8ySvIYF_M%252CHJ9MfGbXtKqDnM%252C_%253Be8WDotNvYnlIcM%252CHJ9MfGbXtKqDnM%252C_%253BqOGy-W9-9EGAJM%252C1EYK30t17Pl4FM%252C_%253BzfJNjJW0wF7UlM%252CHJ9MfGbXtKqDnM%252C_%253B4CG9IUd7IA07dM%252CHJ9MfGbXtKqDnM%252C_%253B6Q6moISVpn5sRM%252CHJ9MfGbXtKqDnM%252C_%253BeI7haDmjyfBotM%252CHJ9MfGbXtKqDnM%252C_&usg=AI4_-kSXgNP0UbwXyRXbxGiQw173FhParw&sa=X&ved=2ahUKEwiv9cjkm4D4AhWKhIkEHZboCuQQ9QF6BAgTEAE#imgrc=aQDdwiHPmToNNM",
+            "source": "https://element.how/elementor-horizontal-scroll-section/",
+            "thumbnail": "https://serpapi.com/searches/62910bf2fa867558d8269a73/images/a336824c812b6b908fcb5e335af9d3f3f884b71f04e02f20bce7acfd08616606.png"
+        },
+        {
+            "link": "https://www.google.com/search?q=Silvia+Stefani+Llabr%C3%A9s&hl=en&gl=us&tbm=isch&source=iu&ictx=1&vet=1&fir=SyZXn4wKQNfRZM%252Cnr_dwKyQuyNVzM%252C_%253BSqRvcUOxKutNjM%252CPc6wPtngLJ95jM%252C_%253BaQDdwiHPmToNNM%252CHJ9MfGbXtKqDnM%252C_%253BpEzQp8ySvIYF_M%252CHJ9MfGbXtKqDnM%252C_%253Be8WDotNvYnlIcM%252CHJ9MfGbXtKqDnM%252C_%253BqOGy-W9-9EGAJM%252C1EYK30t17Pl4FM%252C_%253BzfJNjJW0wF7UlM%252CHJ9MfGbXtKqDnM%252C_%253B4CG9IUd7IA07dM%252CHJ9MfGbXtKqDnM%252C_%253B6Q6moISVpn5sRM%252CHJ9MfGbXtKqDnM%252C_%253BeI7haDmjyfBotM%252CHJ9MfGbXtKqDnM%252C_&usg=AI4_-kSXgNP0UbwXyRXbxGiQw173FhParw&sa=X&ved=2ahUKEwiv9cjkm4D4AhWKhIkEHZboCuQQ9QF6BAgaEAE#imgrc=pEzQp8ySvIYF_M",
+            "source": "https://element.how/elementor-horizontal-scroll-section/",
+            "thumbnail": "https://serpapi.com/searches/62910bf2fa867558d8269a73/images/a336824c812b6b90f4e98cda9011afc65e7e659431cba714d451f63b8d611745.png"
+        },
+        {
+            "link": "https://www.google.com/search?q=Silvia+Stefani+Llabr%C3%A9s&hl=en&gl=us&tbm=isch&source=iu&ictx=1&vet=1&fir=SyZXn4wKQNfRZM%252Cnr_dwKyQuyNVzM%252C_%253BSqRvcUOxKutNjM%252CPc6wPtngLJ95jM%252C_%253BaQDdwiHPmToNNM%252CHJ9MfGbXtKqDnM%252C_%253BpEzQp8ySvIYF_M%252CHJ9MfGbXtKqDnM%252C_%253Be8WDotNvYnlIcM%252CHJ9MfGbXtKqDnM%252C_%253BqOGy-W9-9EGAJM%252C1EYK30t17Pl4FM%252C_%253BzfJNjJW0wF7UlM%252CHJ9MfGbXtKqDnM%252C_%253B4CG9IUd7IA07dM%252CHJ9MfGbXtKqDnM%252C_%253B6Q6moISVpn5sRM%252CHJ9MfGbXtKqDnM%252C_%253BeI7haDmjyfBotM%252CHJ9MfGbXtKqDnM%252C_&usg=AI4_-kSXgNP0UbwXyRXbxGiQw173FhParw&sa=X&ved=2ahUKEwiv9cjkm4D4AhWKhIkEHZboCuQQ9QF6BAgdEAE#imgrc=e8WDotNvYnlIcM",
+            "source": "https://element.how/elementor-horizontal-scroll-section/",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUDUAiWTCS-3HiY-tZJK6FnTJZ0QUFfbsUSfIlnDBUoQ&s"
+        },
+        {
+            "link": "https://www.google.com/search?q=Silvia+Stefani+Llabr%C3%A9s&hl=en&gl=us&tbm=isch&source=iu&ictx=1&vet=1&fir=SyZXn4wKQNfRZM%252Cnr_dwKyQuyNVzM%252C_%253BSqRvcUOxKutNjM%252CPc6wPtngLJ95jM%252C_%253BaQDdwiHPmToNNM%252CHJ9MfGbXtKqDnM%252C_%253BpEzQp8ySvIYF_M%252CHJ9MfGbXtKqDnM%252C_%253Be8WDotNvYnlIcM%252CHJ9MfGbXtKqDnM%252C_%253BqOGy-W9-9EGAJM%252C1EYK30t17Pl4FM%252C_%253BzfJNjJW0wF7UlM%252CHJ9MfGbXtKqDnM%252C_%253B4CG9IUd7IA07dM%252CHJ9MfGbXtKqDnM%252C_%253B6Q6moISVpn5sRM%252CHJ9MfGbXtKqDnM%252C_%253BeI7haDmjyfBotM%252CHJ9MfGbXtKqDnM%252C_&usg=AI4_-kSXgNP0UbwXyRXbxGiQw173FhParw&sa=X&ved=2ahUKEwiv9cjkm4D4AhWKhIkEHZboCuQQ9QF6BAgbEAE#imgrc=qOGy-W9-9EGAJM",
+            "source": "https://www.researchgate.net/publication/282249853_Hydrated_nucleus_pulposus_extrusion_in_dogs_Correlation_of_magnetic_resonance_imaging_and_microsurgical_findings",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV2ER0y7j-1OA9VetdrNafpWRHqdbiawkbuAmeI9r7&s"
+        },
+        {
+            "link": "https://www.google.com/search?q=Silvia+Stefani+Llabr%C3%A9s&hl=en&gl=us&tbm=isch&source=iu&ictx=1&vet=1&fir=SyZXn4wKQNfRZM%252Cnr_dwKyQuyNVzM%252C_%253BSqRvcUOxKutNjM%252CPc6wPtngLJ95jM%252C_%253BaQDdwiHPmToNNM%252CHJ9MfGbXtKqDnM%252C_%253BpEzQp8ySvIYF_M%252CHJ9MfGbXtKqDnM%252C_%253Be8WDotNvYnlIcM%252CHJ9MfGbXtKqDnM%252C_%253BqOGy-W9-9EGAJM%252C1EYK30t17Pl4FM%252C_%253BzfJNjJW0wF7UlM%252CHJ9MfGbXtKqDnM%252C_%253B4CG9IUd7IA07dM%252CHJ9MfGbXtKqDnM%252C_%253B6Q6moISVpn5sRM%252CHJ9MfGbXtKqDnM%252C_%253BeI7haDmjyfBotM%252CHJ9MfGbXtKqDnM%252C_&usg=AI4_-kSXgNP0UbwXyRXbxGiQw173FhParw&sa=X&ved=2ahUKEwiv9cjkm4D4AhWKhIkEHZboCuQQ9QF6BAgSEAE#imgrc=zfJNjJW0wF7UlM",
+            "source": "https://element.how/elementor-horizontal-scroll-section/",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLY4EpQoXThWElCHoPTT43Jvt0He76ziXwkx67DARLdA&s"
+        },
+        {
+            "link": "https://www.google.com/search?q=Silvia+Stefani+Llabr%C3%A9s&hl=en&gl=us&tbm=isch&source=iu&ictx=1&vet=1&fir=SyZXn4wKQNfRZM%252Cnr_dwKyQuyNVzM%252C_%253BSqRvcUOxKutNjM%252CPc6wPtngLJ95jM%252C_%253BaQDdwiHPmToNNM%252CHJ9MfGbXtKqDnM%252C_%253BpEzQp8ySvIYF_M%252CHJ9MfGbXtKqDnM%252C_%253Be8WDotNvYnlIcM%252CHJ9MfGbXtKqDnM%252C_%253BqOGy-W9-9EGAJM%252C1EYK30t17Pl4FM%252C_%253BzfJNjJW0wF7UlM%252CHJ9MfGbXtKqDnM%252C_%253B4CG9IUd7IA07dM%252CHJ9MfGbXtKqDnM%252C_%253B6Q6moISVpn5sRM%252CHJ9MfGbXtKqDnM%252C_%253BeI7haDmjyfBotM%252CHJ9MfGbXtKqDnM%252C_&usg=AI4_-kSXgNP0UbwXyRXbxGiQw173FhParw&sa=X&ved=2ahUKEwiv9cjkm4D4AhWKhIkEHZboCuQQ9QF6BAgeEAE#imgrc=4CG9IUd7IA07dM",
+            "source": "https://element.how/elementor-horizontal-scroll-section/",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCy2AWQ5J8xlvqH--VBONG3ULvDPnXe3Zt-bjA7s0VFg&s"
+        },
+        {
+            "link": "https://www.google.com/search?q=Silvia+Stefani+Llabr%C3%A9s&hl=en&gl=us&tbm=isch&source=iu&ictx=1&vet=1&fir=SyZXn4wKQNfRZM%252Cnr_dwKyQuyNVzM%252C_%253BSqRvcUOxKutNjM%252CPc6wPtngLJ95jM%252C_%253BaQDdwiHPmToNNM%252CHJ9MfGbXtKqDnM%252C_%253BpEzQp8ySvIYF_M%252CHJ9MfGbXtKqDnM%252C_%253Be8WDotNvYnlIcM%252CHJ9MfGbXtKqDnM%252C_%253BqOGy-W9-9EGAJM%252C1EYK30t17Pl4FM%252C_%253BzfJNjJW0wF7UlM%252CHJ9MfGbXtKqDnM%252C_%253B4CG9IUd7IA07dM%252CHJ9MfGbXtKqDnM%252C_%253B6Q6moISVpn5sRM%252CHJ9MfGbXtKqDnM%252C_%253BeI7haDmjyfBotM%252CHJ9MfGbXtKqDnM%252C_&usg=AI4_-kSXgNP0UbwXyRXbxGiQw173FhParw&sa=X&ved=2ahUKEwiv9cjkm4D4AhWKhIkEHZboCuQQ9QF6BAgfEAE#imgrc=6Q6moISVpn5sRM",
+            "source": "https://element.how/elementor-horizontal-scroll-section/",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAR-XM6nfjVq9XORtdm63_QKI_F6Fsuxp8IpDYquLRDg&s"
+        },
+        {
+            "link": "https://www.google.com/search?q=Silvia+Stefani+Llabr%C3%A9s&hl=en&gl=us&tbm=isch&source=iu&ictx=1&vet=1&fir=SyZXn4wKQNfRZM%252Cnr_dwKyQuyNVzM%252C_%253BSqRvcUOxKutNjM%252CPc6wPtngLJ95jM%252C_%253BaQDdwiHPmToNNM%252CHJ9MfGbXtKqDnM%252C_%253BpEzQp8ySvIYF_M%252CHJ9MfGbXtKqDnM%252C_%253Be8WDotNvYnlIcM%252CHJ9MfGbXtKqDnM%252C_%253BqOGy-W9-9EGAJM%252C1EYK30t17Pl4FM%252C_%253BzfJNjJW0wF7UlM%252CHJ9MfGbXtKqDnM%252C_%253B4CG9IUd7IA07dM%252CHJ9MfGbXtKqDnM%252C_%253B6Q6moISVpn5sRM%252CHJ9MfGbXtKqDnM%252C_%253BeI7haDmjyfBotM%252CHJ9MfGbXtKqDnM%252C_&usg=AI4_-kSXgNP0UbwXyRXbxGiQw173FhParw&sa=X&ved=2ahUKEwiv9cjkm4D4AhWKhIkEHZboCuQQ9QF6BAggEAE#imgrc=eI7haDmjyfBotM",
+            "source": "https://element.how/elementor-horizontal-scroll-section/",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLy0Glrtyys62xHwMn4zLfY0PpqozmP0Be19xagQdcoQ&s"
+        }
+    ],
+    "organic_results": [
+        {
+            "position": 1,
+            "title": "Mess M. Silvia Stefani Llabrés — View All http://www.instagram.com ...",
+            "link": "https://blankposter.com/portfolio/mess-by-m-silvia-stefani-llabres/",
+            "displayed_link": "https://blankposter.com › portfolio › mess-by-m-silvia-s...",
+            "snippet": "Mess. M. Silvia Stefani Llabrés — View All · http://www.instagram.com/m.silvvia.",
+            "snippet_highlighted_words": [
+                "Silvia Stefani Llabrés"
+            ],
+            "about_this_result": {
+                "source": {
+                    "description": "blankposter.com was first indexed by Google more than 10 years ago",
+                    "icon": "https://serpapi.com/searches/62910bf2fa867558d8269a73/images/bf0694ef16962f23d8f5616961b49b921aca8bf27e47e6b4bc1c1c39015abfb574dba01a9da5c44873a223986f2b95b4.png"
+                },
+                "keywords": [
+                    "silvia",
+                    "stefani",
+                    "llabrés"
+                ],
+                "related_keywords": [
+                    "llabres"
+                ],
+                "languages": [
+                    "English"
+                ],
+                "regions": [
+                    "the United States"
+                ]
+            },
+            "about_page_link": "https://www.google.com/search?q=About+https://blankposter.com/portfolio/mess-by-m-silvia-stefani-llabres/&tbm=ilp&ilps=ADNMCi0uz05-ugRn8aBTBZ-pVINpO8ni4w",
+            "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:FFy8FC4H9h4J:https://blankposter.com/portfolio/mess-by-m-silvia-stefani-llabres/+&cd=1&hl=en&ct=clnk&gl=us"
+        },
+        {
+            "position": 2,
+            "title": "Maria Silvia Stefani Llabrés - Palma de Mallorca y alrededores",
+            "link": "https://es.linkedin.com/in/maria-silvia-stefani-llabr%C3%A9s-24b44092",
+            "displayed_link": "https://es.linkedin.com › maria-silvia-...",
+            "snippet": "Ve el perfil de Maria Silvia Stefani Llabrés en LinkedIn, la mayor red profesional del mundo. La información académica de Maria Silvia está en su perfil.",
+            "snippet_highlighted_words": [
+                "Silvia Stefani Llabrés"
+            ],
+            "about_this_result": {
+                "source": {
+                    "description": "LinkedIn is an American business and employment-oriented online service that operates via websites and mobile apps. Launched on May 5, 2003, the platform is primarily used for professional networking and career development, and allows job seekers to post their CVs and employers to post jobs.",
+                    "icon": "https://serpapi.com/searches/62910bf2fa867558d8269a73/images/bf0694ef16962f23d8f5616961b49b9224c4df797b44288379e425764116f6edd6b530f74b7ae36c5a837dfc136a8743.png"
+                },
+                "keywords": [
+                    "silvia",
+                    "stefani",
+                    "llabrés"
+                ],
+                "languages": [
+                    "English"
+                ],
+                "regions": [
+                    "the United States"
+                ]
+            },
+            "about_page_link": "https://www.google.com/search?q=About+https://es.linkedin.com/in/maria-silvia-stefani-llabr%25C3%25A9s-24b44092&tbm=ilp&ilps=ADNMCi1eULHeI-5w_2L73nh8WtwLfuKkmQ"
+        },
+        {
+            "position": 3,
+            "title": "Maria Silvia Stefani Llabrés (msstefanil) | Domestika",
+            "link": "https://www.domestika.org/es/msstefanil",
+            "displayed_link": "https://www.domestika.org › msstefanil",
+            "snippet": "Ficha profesional · Maria Silvia Stefani Llabrés – @msstefanil · Diseñadora Gráfica · silviastefani.com · Abierto a ofertas de empleo freelance o contrato · Diseño ...",
+            "snippet_highlighted_words": [
+                "Silvia Stefani Llabrés"
+            ],
+            "about_this_result": {
+                "source": {
+                    "description": "domestika.org was first indexed by Google more than 10 years ago",
+                    "icon": "https://serpapi.com/searches/62910bf2fa867558d8269a73/images/bf0694ef16962f23d8f5616961b49b92ee795b39e494949d7a10f307e5cff7b54b55f04978a2079392595ff0db0c7bd6.png"
+                },
+                "keywords": [
+                    "silvia",
+                    "stefani",
+                    "llabrés"
+                ],
+                "languages": [
+                    "English"
+                ],
+                "regions": [
+                    "the United States"
+                ]
+            },
+            "about_page_link": "https://www.google.com/search?q=About+https://www.domestika.org/es/msstefanil&tbm=ilp&ilps=ADNMCi3P7YA2ZWZzZeYOu_u5gOs6gYyH7w",
+            "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:gDBPbttUQ6oJ:https://www.domestika.org/es/msstefanil+&cd=3&hl=en&ct=clnk&gl=us"
+        },
+        {
+            "position": 4,
+            "title": "Photoshop by Silvia Stefani - Issuu",
+            "link": "https://issuu.com/msilviastefani/docs/photoshop/1",
+            "displayed_link": "https://issuu.com › msilviastefani › docs › photoshop",
+            "date": "Dec 14, 2015",
+            "snippet": "Scroll for more. Photoshop. Page 1. Maria Silvia Stefani Llabrés 2º MK y Publicidad. DISEÑO Y ELABORACIÓN DE MEDIOS DE COMUNICACIÓN ...",
+            "snippet_highlighted_words": [
+                "Silvia Stefani Llabrés"
+            ],
+            "about_this_result": {
+                "source": {
+                    "description":"Issuu, Inc. is a Danish-founded American electronic publishing platform based in Palo Alto, California, United States. Founded in 2004 as a Danish startup, the company moved its headquarters to the United States in 2013.",
+                    "icon": "https://serpapi.com/searches/62910bf2fa867558d8269a73/images/bf0694ef16962f23d8f5616961b49b920ff469086d09b29a0943b201641362aa64127e80836c33d0d58de46eaa58e31f.png"
+                },
+                "keywords": [
+                    "silvia",
+                    "stefani",
+                    "llabrés"
+                ],
+                "languages": [
+                    "English"
+                ],
+                "regions": [
+                    "the United States"
+                ]
+            },
+            "about_page_link": "https://www.google.com/search?q=About+https://issuu.com/msilviastefani/docs/photoshop/1&tbm=ilp&ilps=ADNMCi0BkedJ7VdwIr2gJ3Oz1kBlc5ANfQ",
+            "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:1KsISdijCAUJ:https://issuu.com/msilviastefani/docs/photoshop/1+&cd=4&hl=en&ct=clnk&gl=us"
+        },
+        {
+            "position": 5,
+            "title": "Silvia Stefani (@msstefanil) • Instagram photos and videos",
+            "link": "https://www.instagram.com/msstefanil/?hl=en",
+            "displayed_link": "https://www.instagram.com › msstefanil",
+            "snippet": "529 Followers, 529 Following, 29 Posts - See Instagram photos and videos from Silvia Stefani (@msstefanil)",
+            "snippet_highlighted_words": [
+                "Silvia Stefani"
+            ],
+            "about_this_result": {
+                "source": {
+                    "description": "Instagram is an American photo and video sharing social networking service founded in 2010 by Kevin Systrom and Mike Krieger, and later acquired by Facebook Inc.. The app allows users to upload media that can be edited with filters and organized by hashtags and geographical tagging.",
+                    "icon": "https://serpapi.com/searches/62910bf2fa867558d8269a73/images/bf0694ef16962f23d8f5616961b49b920c89aa624c432b898be5168d9fa391dbe08f193b74beef8180edc3f0d4f1f5e0.png"
+                },
+                "keywords": [
+                    "silvia",
+                    "stefani"
+                ],
+                "languages": [
+                    "English"
+                ],
+                "regions": [
+                    "the United States"
+                ]
+            },
+            "about_page_link": "https://www.google.com/search?q=About+https://www.instagram.com/msstefanil/?hl%3Den&tbm=ilp&ilps=ADNMCi2W0PkqOEqK5D6jRaHQhZaEYFaMCA",
+            "missing": [
+                "Llabrés"
+            ],
+            "must_include": {
+                "word": "Llabrés",
+                "link": "https://www.google.com/search?hl=en&gl=us&q=Silvia+Stefani+%22Llabr%C3%A9s%22&sa=X&ved=2ahUKEwiv9cjkm4D4AhWKhIkEHZboCuQQ5t4CegQIFxAB"
+            },
+            "related_results": [
+                {
+                    "position": 1,
+                    "title": "Silvia Stefani (@stefani5249) • Instagram photos and videos",
+                    "link": "https://www.instagram.com/stefani5249/?hl=en",
+                    "displayed_link": "https://www.instagram.com › stefani5249",
+                    "snippet": "88 Followers, 51 Following, 79 Posts - See Instagram photos and videos from Silvia Stefani (@stefani5249)",
+                    "snippet_highlighted_words": [
+                        "Silvia Stefani"
+                    ],
+                    "about_this_result": {
+                        "source": {
+                            "description": "Instagram is an American photo and video sharing social networking service founded in 2010 by Kevin Systrom and Mike Krieger, and later acquired by Facebook Inc.. The app allows users to upload media that can be edited with filters and organized by hashtags and geographical tagging.",
+                            "icon": "https://serpapi.com/searches/62910bf2fa867558d8269a73/images/bf0694ef16962f23d8f5616961b49b923ba03207773a60a18787893b248b61b365b3d36211cff6ffa69fd2713166940024f43b2267c9bae0ae1d4b8e47897120ff7940cbfeec6b9a.png"
+                        },
+                        "keywords": [
+                            "silvia",
+                            "stefani"
+                        ],
+                        "languages": [
+                            "English"
+                        ],
+                        "regions": [
+                            "the United States"
+                        ]
+                    },
+                    "about_page_link": "https://www.google.com/search?q=About+https://www.instagram.com/stefani5249/?hl%3Den&tbm=ilp&ilps=ADNMCi2XV-4UOa0sk4VXNSX6nEDekzqQRw"
+                }
+            ]
+        },
+        {
+            "position": 6,
+            "title": "Facebook",
+            "link": "https://www.facebook.com/albert.soloviev/photos/a.358824990923959/647361955403593/?type=3",
+            "displayed_link": "https://www.facebook.com › photos",
+            "snippet": "Maria Silvia Stefani Llabrés. Impresionante tu trabajo, enhorabuena. 6y · Fabiola Campaña. Hago una vista atrás y miro ahora esto y la realidad es que tú ...",
+            "snippet_highlighted_words": [
+                "Silvia Stefani Llabrés"
+            ],
+            "about_this_result": {
+                "source": {
+                    "description": "Facebook is an American online social media and social networking service owned by Meta Platforms. Founded in 2004 by Mark Zuckerberg with fellow Harvard College students and roommates Eduardo Saverin, ...",
+                    "icon": "https://serpapi.com/searches/62910bf2fa867558d8269a73/images/bf0694ef16962f23d8f5616961b49b92b01b1a7779f94b9ccfa9f7f4b05396bfa52dba59e9a665a078a06a217dc1e033.png"
+                },
+                "keywords": [
+                    "silvia",
+                    "stefani",
+                    "llabrés"
+                ],
+                "languages": [
+                    "English"
+                ],
+                "regions": [
+                    "the United States"
+                ]
+            },
+            "about_page_link": "https://www.google.com/search?q=About+https://www.facebook.com/albert.soloviev/photos/a.358824990923959/647361955403593/?type%3D3&tbm=ilp&ilps=ADNMCi3vgaXXiiXRpiZkV3vqwM0ElnSjtg",
+            "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:Qf-qTr9zP7MJ:https://www.facebook.com/albert.soloviev/photos/a.358824990923959/647361955403593/%3Ftype%3D3+&cd=17&hl=en&ct=clnk&gl=us",
+            "related_results": [
+                {
+                    "position": 1,
+                    "title": "Electronic Waves pres. Asymmetrical (Raw Culture) @Studio54",
+                    "link": "https://m.facebook.com/events/341759729711275/",
+                    "displayed_link": "https://m.facebook.com › events",
+                    "snippet": "TI MO, profile picture Gala Nga, profile picture · Giovanni Inglese, profile picture Maria Silvia Stefani Llabrés, profile picture Mar Ia, profile picture ...",
+                    "snippet_highlighted_words": [
+                        "Silvia Stefani Llabrés"
+                    ],
+                    "about_this_result": {
+                        "source": {
+                            "description": "Facebook is an American online social media and social networking service owned by Meta Platforms. Founded in 2004 by Mark Zuckerberg with fellow Harvard College students and roommates Eduardo Saverin, ...",
+                            "icon": "https://serpapi.com/searches/62910bf2fa867558d8269a73/images/bf0694ef16962f23d8f5616961b49b92630ee8d145c9531b539830223f1b4e79e2146b5a6e9098ffaa9349e0b16f588062285c15644d56472bdf14f70dcce0d5c9405f55566c44e9.png"
+                        },
+                        "keywords": [
+                            "silvia",
+                            "stefani",
+                            "llabrés"
+                        ],
+                        "languages": [
+                            "English"
+                        ],
+                        "regions": [
+                            "the United States"
+                        ]
+                    },
+                    "about_page_link": "https://www.google.com/search?q=About+https://m.facebook.com/events/341759729711275/&tbm=ilp&ilps=ADNMCi1rzTcmfcRVaNT1DzZ5du6E7luyCQ",
+                    "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:0WbbbXDbwzgJ:https://m.facebook.com/events/341759729711275/+&cd=18&hl=en&ct=clnk&gl=us"
+                }
+            ]
+        },
+        {
+            "position": 7,
+            "title": "Silvia taquilla! - YouTube",
+            "link": "https://www.youtube.com/watch?v=4FoXkK1sojA",
+            "displayed_link": "https://www.youtube.com › watch",
+            "snippet": "... para ver quien cabe , y como no ,nuestra amiga Maria silvia stefani llabres que va a gimnasia ritmica gimnastic Palma , pudo meterse poniendo los pies ...",
+            "snippet_highlighted_words": [
+                "silvia stefani llabres"
+            ],
+            "about_this_result": {
+                "source": {
+                    "description": "YouTube is an American online video sharing and social media platform headquartered in San Bruno, California. It was launched on February 14, 2005, by Steve Chen, Chad Hurley, and Jawed Karim. Owned by Google, it is the second most visited website, right after Google itself.",
+                    "icon": "https://serpapi.com/searches/62910bf2fa867558d8269a73/images/bf0694ef16962f23d8f5616961b49b92de38250f2c7e239ccea7e82f5869ec1a7162da03e19d87d035d078394910c0a5.png"
+                },
+                "keywords": [
+                    "silvia",
+                    "stefani",
+                    "llabrés"
+                ],
+                "related_keywords": [
+                    "llabres"
+                ],
+                "languages": [
+                    "English"
+                ],
+                "regions": [
+                    "the United States"
+                ]
+            },
+            "about_page_link": "https://www.google.com/search?q=About+https://www.youtube.com/watch?v%3D4FoXkK1sojA&tbm=ilp&ilps=ADNMCi2yMjEf2mOntEVR5xM-A7rHuJib-w"
+        }
+    ],
+    "pagination": {
+        "current": 1,
+        "next": "https://www.google.com/search?q=Silvia+Stefani+Llabr%C3%A9s&hl=en&gl=us&ei=8guRYq-0M4qJptQPltGroA4&start=10&sa=N&ved=2ahUKEwiv9cjkm4D4AhWKhIkEHZboCuQQ8NMDegQIARBL",
+        "other_pages": [
+            "https://www.google.com/search?q=Silvia+Stefani+Llabr%C3%A9s&hl=en&gl=us&ei=8guRYq-0M4qJptQPltGroA4&start=10&sa=N&ved=2ahUKEwiv9cjkm4D4AhWKhIkEHZboCuQQ8tMDegQIARA5",
+            "https://www.google.com/search?q=Silvia+Stefani+Llabr%C3%A9s&hl=en&gl=us&ei=8guRYq-0M4qJptQPltGroA4&start=20&sa=N&ved=2ahUKEwiv9cjkm4D4AhWKhIkEHZboCuQQ8tMDegQIARA7",
+            "https://www.google.com/search?q=Silvia+Stefani+Llabr%C3%A9s&hl=en&gl=us&ei=8guRYq-0M4qJptQPltGroA4&start=30&sa=N&ved=2ahUKEwiv9cjkm4D4AhWKhIkEHZboCuQQ8tMDegQIARA9",
+            "https://www.google.com/search?q=Silvia+Stefani+Llabr%C3%A9s&hl=en&gl=us&ei=8guRYq-0M4qJptQPltGroA4&start=40&sa=N&ved=2ahUKEwiv9cjkm4D4AhWKhIkEHZboCuQQ8tMDegQIARA_",
+            "https://www.google.com/search?q=Silvia+Stefani+Llabr%C3%A9s&hl=en&gl=us&ei=8guRYq-0M4qJptQPltGroA4&start=50&sa=N&ved=2ahUKEwiv9cjkm4D4AhWKhIkEHZboCuQQ8tMDegQIARBB",
+            "https://www.google.com/search?q=Silvia+Stefani+Llabr%C3%A9s&hl=en&gl=us&ei=8guRYq-0M4qJptQPltGroA4&start=60&sa=N&ved=2ahUKEwiv9cjkm4D4AhWKhIkEHZboCuQQ8tMDegQIARBD",
+            "https://www.google.com/search?q=Silvia+Stefani+Llabr%C3%A9s&hl=en&gl=us&ei=8guRYq-0M4qJptQPltGroA4&start=70&sa=N&ved=2ahUKEwiv9cjkm4D4AhWKhIkEHZboCuQQ8tMDegQIARBF",
+            "https://www.google.com/search?q=Silvia+Stefani+Llabr%C3%A9s&hl=en&gl=us&ei=8guRYq-0M4qJptQPltGroA4&start=80&sa=N&ved=2ahUKEwiv9cjkm4D4AhWKhIkEHZboCuQQ8tMDegQIARBH",
+            "https://www.google.com/search?q=Silvia+Stefani+Llabr%C3%A9s&hl=en&gl=us&ei=8guRYq-0M4qJptQPltGroA4&start=90&sa=N&ved=2ahUKEwiv9cjkm4D4AhWKhIkEHZboCuQQ8tMDegQIARBJ"
+        ]
+    },
+    "serpapi_pagination": {
+        "current": 1,
+        "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Silvia+Stefani+Llabr%C3%A9s&start=10",
+        "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Silvia+Stefani+Llabr%C3%A9s&start=10",
+        "other_pages": [
+            "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Silvia+Stefani+Llabr%C3%A9s&start=10",
+            "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Silvia+Stefani+Llabr%C3%A9s&start=20",
+            "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Silvia+Stefani+Llabr%C3%A9s&start=30",
+            "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Silvia+Stefani+Llabr%C3%A9s&start=40",
+            "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Silvia+Stefani+Llabr%C3%A9s&start=50",
+            "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Silvia+Stefani+Llabr%C3%A9s&start=60",
+            "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Silvia+Stefani+Llabr%C3%A9s&start=70",
+            "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Silvia+Stefani+Llabr%C3%A9s&start=80",
+            "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&q=Silvia+Stefani+Llabr%C3%A9s&start=90"
+        ]
+    }
+}

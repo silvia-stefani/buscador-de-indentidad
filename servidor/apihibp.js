@@ -7,7 +7,7 @@ exports.apihibp = async (term) => {
         //more on search: https://www.npmjs.com/package/hibp
         search(term, { apiKey: config.hibp.api_key, truncate: false }).then((data) => {
           if (data.breaches || data.pastes) {
-            console.log(data);
+            //console.log(data);
             resolve(data);
           } else {
             console.log('Good news — no pwnage found!');
