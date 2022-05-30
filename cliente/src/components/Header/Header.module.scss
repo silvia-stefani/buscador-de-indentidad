@@ -1,0 +1,14 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 0 1rem;
+
+    .logo {
+        img {
+            width: 3rem;
+            object-fit: contain;
+        }
+    }
+}

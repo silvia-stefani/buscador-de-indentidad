@@ -1,9 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
+
 body {
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Karla', 'Helvetica', sans-serif;
+    font-size: 1rem;
     color: #111;
     margin: 0;
 }
 
+h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+h4 {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
 p {
     margin: 0;
+    font-size: 1rem;
 }

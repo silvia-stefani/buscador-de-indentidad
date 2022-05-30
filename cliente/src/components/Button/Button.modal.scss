@@ -1,0 +1,57 @@
+@import '/css/lib/vars';
+@import '/css/lib/mixins';
+
+button {
+    font-family: $font-family-base;
+    font-size: $base;
+    border: none;
+
+    svg {
+        margin-right: .5rem;
+    }
+
+    &:hover {
+        cursor: pointer !important;
+    }
+}
+
+.btn-primary {
+    @include _button_structure;
+    @include light_bg($primary, $black);
+
+
+    &:hover {
+        color: $secondary;
+    }
+    
+}
+
+.btn-secondary {
+    @include _button_structure;
+    @include dark_bg($secondary, $white);
+
+
+    &:hover {
+        color: $primary;
+    }
+}
+
+.btn-black {
+    @include _button_structure;
+    @include dark_bg($black, $white);
+
+
+    &:hover {
+        color: $primary;
+    }
+}
+
+.btn-ghost {
+    @include _button_structure;
+    @include light_bg($gray, $secondary);
+
+    &:hover {
+        color: $black;
+    }
+}
+

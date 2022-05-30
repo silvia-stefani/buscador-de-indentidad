@@ -1,0 +1,16 @@
+@import '/css/lib/vars';
+@import '/css/lib/mixins';
+
+.EmojiBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 13rem;
+
+    p {
+        margin-top: 1rem;
+        text-align: center;
+    }
+}

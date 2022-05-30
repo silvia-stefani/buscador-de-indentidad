@@ -1,13 +1,22 @@
 .box {
+    width: 100%;
     margin-bottom: 1rem;
+
     .label {
-        margin-bottom: .5rem;
+
         display: flex;
+        align-items: center;
+        margin-bottom: .5rem;
+
+        svg {
+            width: 1rem;
+            margin-right: .5rem;
+        }
     }
 
     .input_box {
         display: flex;
-        margin-bottom: .5rem;
+        align-items: center;
 
         .input_text {
             width: 100%;
@@ -24,8 +33,4 @@
         }
     }
     
-}
-
-.button {
-    width: 100%;
 }

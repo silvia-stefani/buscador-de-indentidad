@@ -1,0 +1,36 @@
+@mixin _space_between_comp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin _justify_comp {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+@mixin _padding_comp {
+    padding: $base*.5 $base;
+}
+
+@mixin _button_structure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: $base*.5 $base;
+    margin-right: $base;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+@mixin light_bg($bg, $text) {
+    background-color: $bg;
+    color: $text;
+}
+@mixin dark_bg($bg, $text) {
+    background-color: $bg;
+    color: $text;
+}
