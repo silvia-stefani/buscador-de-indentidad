@@ -1,0 +1,32 @@
+@import '/css/lib/vars';
+@import '/css/lib/mixins';
+
+
+.Widget {
+    padding: 1rem;
+
+    .heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1rem;
+
+        .title {
+            h4 {
+                font-weight: 600;
+                margin-bottom: .5rem;
+            }
+        }
+    }
+
+
+
+    .more_results {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        p {
+            font-weight: 400;
+        }
+    }
+}

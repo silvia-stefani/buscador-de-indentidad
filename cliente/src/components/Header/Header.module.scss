@@ -1,14 +1,37 @@
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 10vh;
-    padding: 0 1rem;
+@import '/css/lib/vars';
+@import '/css/lib/mixins';
 
-    .logo {
-        img {
-            width: 3rem;
-            object-fit: contain;
+.Header {
+    @include _space_between_comp;
+    @include _padding_comp;
+    
+    position: sticky;
+    top: 0;
+    max-height: $header-height;
+    padding: .5rem 1rem;
+
+    background-color: $white;
+    border-bottom: .1rem solid $gray;
+
+    .navbar {
+        @include _space_between_comp;
+
+        .searchbox {
+            margin-right: 5rem;
+            display: flex;
+            align-items: center;
+            
+            .input {
+                margin-right: $base * .5;
+            }
+        }
+
+        .right {
+            @include _space_between_comp;
+            button {
+                margin-left: .5rem;
+            }
+            
         }
     }
 }

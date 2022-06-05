@@ -21,23 +21,13 @@ export default function Input({
 
 
         <div className={styles.box}>
-
             <label className={styles.label}>
-
             {dataInputIcon} {name}
-
             </label>
-
             <div className={styles.input_box}>
-
-                <input className={styles.input_text}
-                    type="text"
-                    placeholder={example}
-                    onChange={onChange}
-                />
-                <PlusCircle onClick={onPress} size={24} weight="light" />
+                <input className={styles.input} type="text" placeholder={example} onChange={onChange} />
+                {/* <PlusCircle onClick={onPress} size={24} weight="light" /> */}
             </div>
-
         </div>
 
     )

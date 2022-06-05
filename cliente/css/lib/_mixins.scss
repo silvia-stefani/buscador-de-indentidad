@@ -18,8 +18,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: .25rem;
     padding: $base*.5 $base;
-    margin-right: $base;
 
     &:last-child {
         margin-right: 0;
@@ -33,4 +33,12 @@
 @mixin dark_bg($bg, $text) {
     background-color: $bg;
     color: $text;
+}
+
+@mixin box_widget {
+    background-color: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: .25rem;
+    border: .1rem solid $gray;
 }

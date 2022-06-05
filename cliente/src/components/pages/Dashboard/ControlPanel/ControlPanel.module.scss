@@ -1,0 +1,17 @@
+.ControlPanel {
+    padding: 1rem 1rem 5rem 1rem;
+    grid-column: 1/-2;
+    display: flex;
+    background-color: #f8f8f8;
+    height: 100vh;
+    overflow: scroll;
+
+    .widget_column {
+
+        width: 50%;
+
+    display: flex;
+    flex-direction: column;
+
+    }
+}

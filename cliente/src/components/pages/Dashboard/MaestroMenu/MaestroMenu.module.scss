@@ -1,0 +1,82 @@
+@import '/css/lib/vars';
+@import '/css/lib/mixins';
+
+.MaestroMenu {
+
+    grid-column: -2/-1;
+    max-height: 100vh;
+    overflow: scroll;
+
+    padding: 1rem 2rem;
+
+    border-left: .1rem solid $gray;
+
+    h3 {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+
+        svg {
+            margin-right: .5rem;
+        }
+    }
+
+    nav {
+        margin-bottom: 1rem;
+        .navigation {
+            button {
+                margin-bottom: 1rem;
+            }
+            margin-bottom: 1rem;
+        }
+    }
+    .filters {
+        select {
+            width: 80%;
+            padding: .5rem 1rem;
+            border-radius: .25rem;
+            background: $gray;
+            border: none;
+            cursor: pointer;
+
+            margin-bottom: 1rem;
+
+            &:hover {
+                background: #f9f9f9;
+            }
+            &:focus {
+                outline: .1rem solid $primary;
+            }
+        }
+    }
+    .tags {
+        margin-bottom: 1rem;
+        p {
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+        .tag {
+            display: flex;
+            max-width: fit-content;
+            align-items: center;
+            padding: .5rem;
+            background-color: $primary;
+            
+            margin-bottom: 1rem;
+
+            p {
+                margin: 0;
+                font-weight: 400;
+                font-size: .9rem;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                margin-right: .5rem;
+            }
+            svg {
+                min-width: 1rem;
+                font-size: 1rem;
+            }
+        }
+    }
+}

@@ -1,18 +1,29 @@
-import React from "react";
+import { useState } from 'react';
 
-import logo from "/public/images/logo_digid.svg"
-import Button from "../Button/Button";
+import styles from './Header.module.scss';
+import colors from '../../utils/colors';
+import { MagnifyingGlass } from 'phosphor-react';
 
-import styles from "./Header.module.scss"
+import Logo from '../Logo';
+import Button from '../button/Button';
 
-export default function Header(props) {
-    
+export default function Header(params) {
+
     return(
         <header className={styles.Header}>
-            <Button label="Volver a la web" special="back" type="ghost" />
-            <div className={styles.logo}>
-                <img src={logo}></img>
-            </div>
+            <Logo width="3rem" color={colors.secondary}/>
+
+            <nav className={styles.navbar}>
+                <div className={styles.searchbox}>
+                    <input className={styles.input} type="text" placeholder="Buscar"/>
+                    <MagnifyingGlass size={20} />
+                </div>
+                <div className={styles.right}>
+                    <Button label="El proyecto" type="primary"/>
+                    <Button label="Empezar" type="secondary"/>
+                </div>
+            </nav>
         </header>
     )
+    
 }

@@ -3,9 +3,11 @@ import React from "react";
 import styles from "./EmojiBox.module.scss";
 
 import EmptyEm from "../Emojis/EmptyEm";
+import LoveEm from "../Emojis/LoveEm";
+import LoadingEm from "../Emojis/LoadingEm";
 import colors from "../../utils/colors";
 
-export default function EmojiBox({type, label, color}) {
+export default function EmojiBox({type, label, color, width}) {
 
     const colorEmoji =
 
@@ -17,8 +19,12 @@ export default function EmojiBox({type, label, color}) {
 
     return(
         <div className={styles.EmojiBox}>
-            {type === "empty" ? 
-            <EmptyEm color={colorEmoji}/>
+            {type === "empty" ?
+            <EmptyEm color={colorEmoji} width={width}/> :
+            type === "love" ?
+            <LoveEm color={colorEmoji} width={width}/> :
+            type === "loading" ?
+            <LoadingEm color={colorEmoji} width={width}/> 
             : null}
             <p style={{color: colorEmoji}}>{label}</p>
         </div>

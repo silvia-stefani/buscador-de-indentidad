@@ -26,8 +26,10 @@ app.get("/getData", function(req, res){
 app.post("/getData", async (req, res, next) => {
   //1. coger los params de req.params
   console.log(req.body);
-  req.body.name="Enrique"
-  req.body.email="enrique.barra.arias@gmail.com"
+  req.body.name="Silvia Stefani"
+  req.body.email="msstefanil@gmail.com"
+  req.body.tlf="696682654"
+  req.body.dni="43227641S"
 
   //2. Llamadas a apis (Google, HIBP, Twitter, ...)
   let hibpans;
@@ -73,7 +75,7 @@ app.post("/getData", async (req, res, next) => {
 
   //3. Devolver los datos
   //res.json({ googlename, googledni, googleemail, googletlf, twitterans, hibpans});
-  res.json({ hibpans }); 
+  res.json({ hibpans, googlename }); 
 });
 
 app.listen(config.web.port, () => {

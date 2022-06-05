@@ -1,0 +1,201 @@
+{
+    "hibpans": {
+        "breaches": [
+            {
+                "Name": "500px",
+                "Title": "500px",
+                "Domain": "500px.com",
+                "BreachDate": "2018-07-05",
+                "AddedDate": "2019-03-25T08:01:09Z",
+                "ModifiedDate": "2019-03-25T08:01:09Z",
+                "PwnCount": 14867999,
+                "Description": "In mid-2018, the online photography community <a href=\"https://support.500px.com/hc/en-us/articles/360017752493-Security-Issue-February-2019-FAQ\" target=\"_blank\" rel=\"noopener\">500px suffered a data breach</a>. The incident exposed almost 15 million unique email addresses alongside names, usernames, genders, dates of birth and either an MD5 or bcrypt password hash. In 2019, <a href=\"https://www.theregister.co.uk/2019/02/11/620_million_hacked_accounts_dark_web/\" target=\"_blank\" rel=\"noopener\">the data appeared listed for sale on a dark web marketplace</a> (along with several other large breaches) and subsequently began circulating more broadly. The data was provided to HIBP by a source who requested it to be attributed to &quot;BenjaminBlue@exploit.im&quot;.",
+                "LogoPath": "https://haveibeenpwned.com/Content/Images/PwnedLogos/500px.png",
+                "DataClasses": [
+                    "Dates of birth",
+                    "Email addresses",
+                    "Genders",
+                    "Geographic locations",
+                    "Names",
+                    "Passwords",
+                    "Usernames"
+                ],
+                "IsVerified": true,
+                "IsFabricated": false,
+                "IsSensitive": false,
+                "IsRetired": false,
+                "IsSpamList": false,
+                "IsMalware": false
+            },
+            {
+                "Name": "Canva",
+                "Title": "Canva",
+                "Domain": "canva.com",
+                "BreachDate": "2019-05-24",
+                "AddedDate": "2019-08-09T14:24:01Z",
+                "ModifiedDate": "2019-08-09T14:24:01Z",
+                "PwnCount": 137272116,
+                "Description": "In May 2019, the graphic design tool website <a href=\"https://support.canva.com/contact/customer-support/may-24-security-incident-faqs/\" target=\"_blank\" rel=\"noopener\">Canva suffered a data breach</a> that impacted 137 million subscribers. The exposed data included email addresses, usernames, names, cities of residence and passwords stored as bcrypt hashes for users not using social logins. The data was provided to HIBP by a source who requested it be attributed to \"JimScott.Sec@protonmail.com\".",
+                "LogoPath": "https://haveibeenpwned.com/Content/Images/PwnedLogos/Canva.png",
+                "DataClasses": [
+                    "Email addresses",
+                    "Geographic locations",
+                    "Names",
+                    "Passwords",
+                    "Usernames"
+                ],
+                "IsVerified": true,
+                "IsFabricated": false,
+                "IsSensitive": false,
+                "IsRetired": false,
+                "IsSpamList": false,
+                "IsMalware": false
+            },
+            {
+                "Name": "Gravatar",
+                "Title": "Gravatar",
+                "Domain": "gravatar.com",
+                "BreachDate": "2020-10-03",
+                "AddedDate": "2021-12-05T22:45:58Z",
+                "ModifiedDate": "2021-12-08T01:47:02Z",
+                "PwnCount": 113990759,
+                "Description": "In October 2020, <a href=\"https://www.bleepingcomputer.com/news/security/online-avatar-service-gravatar-allows-mass-collection-of-user-info/\" target=\"_blank\" rel=\"noopener\">a security researcher published a technique for scraping large volumes of data from Gravatar, the service for providing globally unique avatars </a>. 167 million names, usernames and MD5 hashes of email addresses used to reference users' avatars were subsequently scraped and distributed within the hacking community. 114 million of the MD5 hashes were cracked and distributed alongside the source hash, thus disclosing the original email address and accompanying data. Following the impacted email addresses being searchable in HIBP, <a href=\"https://en.gravatar.com/support/data-privacy\" target=\"_blank\" rel=\"noopener\">Gravatar release an FAQ detailing the incident</a>.",
+                "LogoPath": "https://haveibeenpwned.com/Content/Images/PwnedLogos/Gravatar.png",
+                "DataClasses": [
+                    "Email addresses",
+                    "Names",
+                    "Usernames"
+                ],
+                "IsVerified": true,
+                "IsFabricated": false,
+                "IsSensitive": false,
+                "IsRetired": false,
+                "IsSpamList": false,
+                "IsMalware": false
+            },
+            {
+                "Name": "JobAndTalent",
+                "Title": "Jobandtalent",
+                "Domain": "jobandtalent.com",
+                "BreachDate": "2018-02-01",
+                "AddedDate": "2021-01-17T22:31:00Z",
+                "ModifiedDate": "2021-01-17T22:31:00Z",
+                "PwnCount": 10981207,
+                "Description": "In approximately February 2018, <a href=\"https://www.zdnet.com/article/hacker-puts-up-for-sale-third-round-of-hacked-databases-on-the-dark-web/\" target=\"_blank\" rel=\"noopener\">the employment website Jobandtalent suffered a data breach which then appeared for sale alongside other breaches a year later</a>. The incident impacted 11 million subscribers and exposed their names, email and IP addresses and passwords stored as salted SHA-1 hashes.",
+                "LogoPath": "https://haveibeenpwned.com/Content/Images/PwnedLogos/JobAndTalent.png",
+                "DataClasses": [
+                    "Email addresses",
+                    "IP addresses",
+                    "Names",
+                    "Passwords"
+                ],
+                "IsVerified": true,
+                "IsFabricated": false,
+                "IsSensitive": false,
+                "IsRetired": false,
+                "IsSpamList": false,
+                "IsMalware": false
+            }
+        ],
+        "pastes": null
+    },
+    "googlename": {
+        "results": [
+            {
+                "title": "Silvia Stefani (@silviettastefani) • Instagram photos and videos",
+                "description": "Silvia Stefani. Don't let them fool you or even try to school you! We've got a mind of our own.... Bob Marley. 1,357 posts. 1,095 followers. 2,090 following ...",
+                "url": "https://www.instagram.com/silviettastefani/?hl=es",
+                "favicons": {
+                    "high_res": "https://api.faviconkit.com/www.instagram.com/192",
+                    "low_res": "https://www.google.com/s2/favicons?sz=64&domain_url=www.instagram.com"
+                }
+            },
+            {
+                "title": "Silvia Stefani (@msstefanil) • Instagram photos and videos",
+                "description": "530 Followers, 529 Following, 29 Posts - See Instagram photos and videos from Silvia Stefani (@msstefanil)",
+                "url": "https://www.instagram.com/msstefanil/?hl=es",
+                "favicons": {
+                    "high_res": "https://api.faviconkit.com/www.instagram.com/192",
+                    "low_res": "https://www.google.com/s2/favicons?sz=64&domain_url=www.instagram.com"
+                }
+            },
+            {
+                "title": "Silvia Stefani - Digital Product Designer - LinkedIn",
+                "description": "Ve el perfil de Silvia Stefani en LinkedIn, la mayor red profesional del mundo. Silvia tiene 3 empleos en su perfil. Ve el perfil completo en LinkedIn y ...",
+                "url": "https://es.linkedin.com/in/silvia-stefani-549947203",
+                "favicons": {
+                    "high_res": "https://api.faviconkit.com/es.linkedin.com/192",
+                    "low_res": "https://www.google.com/s2/favicons?sz=64&domain_url=es.linkedin.com"
+                }
+            },
+            {
+                "title": "Silvia Stefani | Università degli Studi di Torino - Academia.edu",
+                "description": "Silvia Stefani, Università degli Studi di Torino, Dipartimento di Filosofia e Scienze dell'Educazione Department, Post-Doc.",
+                "url": "https://unito.academia.edu/SilviaStefani",
+                "favicons": {
+                    "high_res": "https://api.faviconkit.com/unito.academia.edu/192",
+                    "low_res": "https://www.google.com/s2/favicons?sz=64&domain_url=unito.academia.edu"
+                }
+            },
+            {
+                "title": "Silvia Stefani - Fotos | Facebook",
+                "description": "Silvia Stefani. 99 Me gusta. Artista.",
+                "url": "https://m.facebook.com/pages/category/Artist/Silvia-Stefani-147107892564725/photos/?locale=es_LA&_rdr",
+                "favicons": {
+                    "high_res": "https://api.faviconkit.com/m.facebook.com/192",
+                    "low_res": "https://www.google.com/s2/favicons?sz=64&domain_url=m.facebook.com"
+                }
+            },
+            {
+                "title": "Silvia Stefani - Facebook",
+                "description": "Silvia Stefani está en Facebook. Únete a Facebook para conectar con Silvia Stefani y otras personas que quizá conozcas. Facebook da a la gente el poder...",
+                "url": "https://m.facebook.com/silvia.stefani.7165",
+                "favicons": {
+                    "high_res": "https://api.faviconkit.com/m.facebook.com/192",
+                    "low_res": "https://www.google.com/s2/favicons?sz=64&domain_url=m.facebook.com"
+                }
+            },
+            {
+                "title": "Member Profile – Silvia Stefani Lopez Barrera - The Florida Bar",
+                "description": "Silvia Stefani Lopez Barrera. Bar Number: 124170. Mail Address: ...",
+                "url": "https://www.floridabar.org/directories/find-mbr/profile/?num=124170",
+                "favicons": {
+                    "high_res": "https://api.faviconkit.com/www.floridabar.org/192",
+                    "low_res": "https://www.google.com/s2/favicons?sz=64&domain_url=www.floridabar.org"
+                }
+            },
+            {
+                "title": "Maria Silvia Stefani Llabrés (msstefanil) | Domestika",
+                "description": "Maria Silvia Stefani Llabrés. Me gusta dar a mis proyectos un sentido más allá del estético. Considerándome una persona dinámica y sociable, me gusta mucho ...",
+                "url": "https://www.domestika.org/es/msstefanil",
+                "favicons": {
+                    "high_res": "https://api.faviconkit.com/www.domestika.org/192",
+                    "low_res": "https://www.google.com/s2/favicons?sz=64&domain_url=www.domestika.org"
+                }
+            },
+            {
+                "title": "Silvia stefani (@Silvinapacon) / Twitter",
+                "description": "Silvia stefani. @Silvinapacon. Amo a mi esposo y a mi hijo Dios cuiadalos y bendice nuestro hogar. Cucuta Joined December 2013.",
+                "url": "https://mobile.twitter.com/silvinapacon",
+                "favicons": {
+                    "high_res": "https://api.faviconkit.com/mobile.twitter.com/192",
+                    "low_res": "https://www.google.com/s2/favicons?sz=64&domain_url=mobile.twitter.com"
+                }
+            }
+        ],
+        "videos": [],
+        "knowledge_panel": {
+            "title": "N/A",
+            "description": "N/A",
+            "url": "N/A"
+        },
+        "featured_snippet": {
+            "title": "N/A",
+            "description": "N/A",
+            "url": "N/A"
+        },
+        "top_stories": [],
+        "people_also_ask": [],
+        "people_also_search_for": []
+    }
+}

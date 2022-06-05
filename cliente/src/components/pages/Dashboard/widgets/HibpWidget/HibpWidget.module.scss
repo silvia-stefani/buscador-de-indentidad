@@ -1,0 +1,54 @@
+@import '/css/lib/vars';
+@import '/css/lib/mixins';
+
+
+
+.box {
+
+    @include box_widget;
+
+    .information {
+        display: flex;
+        justify-content: space-between;
+        max-width: 100%;
+        margin-bottom: 1rem;
+
+        img {
+
+            width: 3rem;
+            height: 3rem;
+            background-color: #272727;
+            border-radius: 50%;
+            padding: .5rem;
+            object-fit: contain;
+            margin-right: 1rem;
+        }
+
+        .data {
+            margin-right: 1rem;
+            max-width: 100%;
+
+            h4 {
+                margin-bottom: .5rem;
+                font-weight: 400;
+            }
+
+            p {
+                -webkit-line-clamp: 2;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                white-space: none;
+                overflow: hidden;
+                text-overflow: ellipsis;
+
+                font-weight: 200;
+            }
+        }
+    }
+
+    .manage {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

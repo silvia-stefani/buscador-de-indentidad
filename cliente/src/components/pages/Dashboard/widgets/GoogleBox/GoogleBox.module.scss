@@ -1,0 +1,51 @@
+@import '/css/lib/vars';
+@import '/css/lib/mixins';
+
+.box {
+    @include box_widget;
+    .information {
+        display: flex;
+        margin-bottom: 1rem;
+        .left {
+            margin-right: 1rem;
+            .data {
+                display: flex;
+                img {
+                    width: 1rem;
+                    height: 1rem;
+                    object-fit: contain;
+                    margin-right: .5rem;
+                }
+                h4 {
+                    margin-bottom: .5rem;
+                    font-weight: 400;
+                }
+            }
+        }
+        p {
+            -webkit-line-clamp: 2;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            white-space: none;
+            overflow: hidden;
+            text-overflow: ellipsis;
+
+            font-weight: 200;
+        }
+        .links {
+            p {
+                display: flex;
+                justify-content: end;
+
+                svg {
+                    margin-left: .5rem;
+                }
+            }
+        }
+    }
+    .manage {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

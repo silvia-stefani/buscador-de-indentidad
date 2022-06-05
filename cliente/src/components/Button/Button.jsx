@@ -1,11 +1,11 @@
 import React, {useState} from "react";
-import { ArrowLeft, Eye, X, Gear, PlusCircle, CheckCircle } from "phosphor-react";
+import { ArrowLeft, Eye, X, Gear, PlusCircle, CheckCircle, Trash, Pen } from "phosphor-react";
 
 import styles from "./Button.modal.scss";
 
 export default function Button({
 
-  special,
+  icon,
   label,
   type, 
   onPress
@@ -15,9 +15,10 @@ export default function Button({
     const buttonType = `btn-${type}`;
 
     const setIcon =
-    special == "back" ? <ArrowLeft/> : special == "see" ? <Eye/> : 
-    special == "close" ? <X/> : special == "settings" ? <Gear/> : 
-    special == "add" ? <PlusCircle/> : special == "check" ? <CheckCircle/> : null
+    icon == "back" ? <ArrowLeft/> : icon == "see" ? <Eye/> : 
+    icon == "close" ? <X/> : icon == "settings" ? <Gear/> : 
+    icon == "add" ? <PlusCircle/> : icon == "check" ? <CheckCircle/>:
+    icon == "trash" ? <Trash/> : icon == "pen" ? <Pen/> : null
 
 
     return (

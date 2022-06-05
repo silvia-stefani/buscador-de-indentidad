@@ -3,19 +3,25 @@ import { Routes, Route } from "react-router-dom";
 
 import styles from './App.module.scss';
 
-import Form from './components/Form/Form'
-import Dashboard from './components/Dashboard/Dashboard'
+import Home from './Home/Home';
+import Form from './components/pages/Form/Form'
+import Dashboard from './components/pages/Dashboard/Dashboard';
+import DIGIdentidad from './components/pages/Dashboard/DIGIdentidad/DIGIdentidad';
+import Modal from './components/Modal/Modal';
+
 import { SERVER_URL } from "./constants/constants";
 import {  useNavigate} from "react-router-dom";
-
-import Header from "./components/Header/Header";
+import ControlPanel from './components/pages/Dashboard/ControlPanel/ControlPanel';
 
 function App() {
+  
   const [returndata, setReturndata] = useState({});
   let navigate = useNavigate();
 
   const fetchData = async (values) => {
+    //console.log(values);
     try {
+        navigate("/app/loading")
         const finalurl = SERVER_URL + "/getData/";
         const res = await fetch(finalurl, {
           method: 'POST', 
@@ -24,24 +30,27 @@ function App() {
           },
           body: JSON.stringify(values)
         });
+        
         const newdata = await res.json();
-        console.log(newdata)
+        console.log("NEWDATA:", newdata)
         setReturndata(newdata);
-        navigate("/dashboard")
+        navigate("/app/dashboard")
+        
     } catch (err) {
         console.log("No se ha podido acceder al api.");
         console.log(err);
     }
 }
 
-
   return (
     <div className={styles.App}>
-      <Header/>
       <Routes>
+        <Route path="/app/loading" element={<Modal emoji={true} width="10rem" type="loading" label="Cargando..." />} />
+
         <Route path="/" element={<Form fetchData={fetchData}/>} />
-        <Route path="/dashboard" element={<Dashboard returndata={returndata}/>} />
-      </Routes>        
+        <Route path="/app/dashboard" element={<Dashboard returndata={returndata}/>} />
+        <Route path="/app/DIGIdentity" element={<DIGIdentidad/>} />
+      </Routes>  
     </div>
   )
 }

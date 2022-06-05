@@ -55,3 +55,15 @@ button {
     }
 }
 
+
+.btn-lineal {
+    display: flex;
+    align-items: center;
+    background: none;
+    padding: 0;
+
+    &:hover {
+        color: $secondary;
+    }
+}
+
