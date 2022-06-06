@@ -3,9 +3,8 @@ import React, { useState } from "react";
 import styles from './TwitterBox.module.scss';
 
 import { Copy, ArrowSquareOut, Trash } from "phosphor-react";
-import api from '/api_prueba.json';
-import Button from "../../../../Button/Button";
-import EmojiBox from "../../../../EmojiBox/EmojiBox";
+
+import Button from "../../../../components/Button/Button";
 
 export default function TwitterBox({ userName, userAlias, text }) {
 

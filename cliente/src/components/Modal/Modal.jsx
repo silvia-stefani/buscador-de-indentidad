@@ -5,7 +5,7 @@ import EmptyEm from "../Emojis/EmptyEm";
 
 import styles from './Modal.module.scss'
 
-export default function Modal({closeModal, goBack, emoji, width, type, label}) {
+export default function Modal({closeModal, goBack, emoji, width, type, label, question}) {
     
     return(
         <div className={styles.Modal} style={{backgroundColor: !emoji ? "rgb(0, 0, 0, .25)" : "#fff"}}>
@@ -15,7 +15,7 @@ export default function Modal({closeModal, goBack, emoji, width, type, label}) {
             <div className={styles.box}>
                 
                 <div className={styles.question}>
-                    Editar la búsqueda hará que <b>se borre el progreso</b>.<br></br> ¿Estás seguro de que quieres volver atrás?
+                    {question}
                 </div>
                 <div className={styles.options}>
                     <Button type="ghost" label="Sí, quiero volver" onPress={goBack}/>

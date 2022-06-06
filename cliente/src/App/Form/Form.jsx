@@ -2,12 +2,11 @@ import React, { useState } from "react";
 import { Routes, Route, Link } from "react-router-dom";
 
 import styles from './Form.module.scss';
-import colors from "../../../utils/colors";
+import colors from '../../utils/colors';
 
 import { project } from '/src/utils/project.js'
 
-import Header from "../../Header/Header";
-import Logo from "../../Logo";
+import Logo from "../../components/Logo";
 
 import Input from '/src/components/Input/Input';
 import Button from "/src/components/Button/Button";
@@ -84,8 +83,8 @@ export default function Form(props) {
                 <div className={styles.description}>
                     <h1 className={styles.title}><Binoculars style={{ marginRight: ".5rem" }} size={32} weight="light" /> {project.title}</h1>
                     <div className={styles.privacy}>
-                        <p>{project.privacy0}</p>
-                        <p>{project.privacy1}</p>
+                        <p><b>Ningún dato es obligatorio</b> para usar DIGID.</p>
+                        <p>Esta plataforma <b>no almacena ningún tipo de información</b>. Si quieres saber más sobre cómo funciona la búsqueda puedes verlo en el proyecto.</p>
                     </div>
                 </div>
 

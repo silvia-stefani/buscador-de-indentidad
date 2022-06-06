@@ -1,15 +1,15 @@
-import React, { useState } from "react";
+import React, { useState, dangerouslySetInnerHTML } from "react";
 
 import styles from './Widget.module.scss'
 
 import { DotsThreeVertical, Copy, ArrowSquareOut, Trash } from "phosphor-react";
 
-import Button from "../../../Button/Button";
-import EmojiBox from "../../../EmojiBox/EmojiBox";
+import Button from "../../../components/Button/Button";
+import EmojiBox from "../../../components/EmojiBox/EmojiBox";
 
-import GoogleBox from "./GoogleBox/GoogleBox";
-import HibpWidget from "./HibpWidget/HipbpWidget";
-import TwitterBox from "./TwitterBox/TwitterBox";
+import GoogleBox from './GoogleBox/GoogleBox'
+import HibpWidget from './HibpWidget/HipbpWidget'
+import TwitterBox from './TwitterBox/TwitterBox'
 
 export default function Widget({ api, box, data, dataLabel }) {
 
@@ -27,6 +27,8 @@ export default function Widget({ api, box, data, dataLabel }) {
     }
 
     const [array, setArray] = useState({})
+
+    
 
 
     return (

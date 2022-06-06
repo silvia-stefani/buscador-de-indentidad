@@ -14,7 +14,6 @@ export default function Home(props) {
   return (
 
     <div className={styles.Home}>
-
       <Header/>
       <div className={styles.introduction}>
         <div className={styles.head_page}>
@@ -28,7 +27,7 @@ export default function Home(props) {
           <h1 className={styles.claim}>Empieza a cuidar tu identidad digital</h1>
         </div>
         <div className={styles.buttons}>
-          <Button label="¿Qué es la dientidad digital?" type="ghost" />
+          <Button label="¿Qué es la identidad digital?" type="ghost" />
           <Button label="Recursos" type="ghost" />
           <Button label="El proyecto" type="ghost" />
 
