@@ -17,7 +17,7 @@ import Trash from './App/Dashboard/Trash/Trash';
 function App() {
   
   const [returndata, setReturndata] = useState({});
-  const [loading, setLoading] = useState(true)
+  const [loading, setLoading] = useState(false)
   let navigate = useNavigate();
 
   const fetchData = async (values) => {
@@ -47,7 +47,7 @@ function App() {
 
   return (
     <div className={styles.App}>
-
+"
       {loading ? <Modal emoji={true} width="10rem" type="loading" label="Cargando..." /> : null}
 
       <Routes>
