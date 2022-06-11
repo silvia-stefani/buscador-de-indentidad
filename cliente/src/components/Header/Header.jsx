@@ -4,18 +4,18 @@ import styles from './Header.module.scss';
 import colors from '../../utils/colors';
 import { MagnifyingGlass } from 'phosphor-react';
 
-import { useNavigate } from 'react-router-dom';
+import { Link, Navigate, useNavigate } from 'react-router-dom';
 
-import Logo from '../Logo';
-import Button from '../button/Button';
+import {Logo} from '../Logo';
+import {Button} from '../button/Button';
 
-export default function Header(params) {
 
+
+export const Header = () => {
     let navigate = useNavigate()
-
     return(
         <header className={styles.Header}>
-            <Logo width="3rem" color={colors.secondary}/>
+            <Logo width="small" color="secondary"/>
 
             <nav className={styles.navbar}>
                 <div className={styles.searchbox}>
@@ -24,7 +24,7 @@ export default function Header(params) {
                 </div>
                 <div className={styles.right}>
                     <Button label="El proyecto" type="primary"/>
-                    <Button label="Empezar" type="secondary" onPress={() => {navigate("/app")}}/>
+                    <Button label="Empezar" type="secondary" onPress={()=>{navigate("/app")}}/>
                 </div>
             </nav>
         </header>

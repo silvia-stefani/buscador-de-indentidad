@@ -2,9 +2,8 @@ import React, { useState } from "react";
 
 import styles from './HibpWidget.module.scss'
 
-import { DotsThreeVertical, Copy, ArrowSquareOut, Trash } from "phosphor-react";
+import { Trash } from "phosphor-react";
 
-import Button from "../../../../components/Button/Button";
 
 export default function HibpWidget({logo, title, description}) {
 

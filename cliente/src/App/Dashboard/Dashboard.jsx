@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import Logo from "../../components/Logo";
+import {Logo} from "../../components/Logo";
 import colors from "../../utils/colors.js";
 import styles from './Dashboard.module.scss';
 

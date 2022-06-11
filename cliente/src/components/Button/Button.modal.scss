@@ -15,7 +15,7 @@ button {
     }
 }
 
-.btn-primary {
+button.primary {
     @include _button_structure;
     @include light_bg($primary, $black);
 
@@ -26,7 +26,7 @@ button {
     
 }
 
-.btn-secondary {
+button.secondary {
     @include _button_structure;
     @include dark_bg($secondary, $white);
 
@@ -36,7 +36,7 @@ button {
     }
 }
 
-.btn-black {
+button.black {
     @include _button_structure;
     @include dark_bg($black, $white);
 
@@ -45,8 +45,7 @@ button {
         color: $primary;
     }
 }
-
-.btn-ghost {
+button.ghost {
     @include _button_structure;
     @include light_bg($gray, $secondary);
 
@@ -56,7 +55,7 @@ button {
 }
 
 
-.btn-lineal {
+button.lineal {
     display: flex;
     align-items: center;
     background: none;

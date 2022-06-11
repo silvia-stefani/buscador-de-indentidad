@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../Button/Button";
+import {Button} from "../Button/Button";
 import EmojiBox from "../EmojiBox/EmojiBox";
 import EmptyEm from "../Emojis/EmptyEm";
 

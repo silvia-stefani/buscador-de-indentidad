@@ -4,7 +4,7 @@ import styles from './Widget.module.scss'
 
 import { DotsThreeVertical, Copy, ArrowSquareOut, Trash } from "phosphor-react";
 
-import Button from "../../../components/Button/Button";
+import {Button} from "../../../components/Button/Button";
 import EmojiBox from "../../../components/EmojiBox/EmojiBox";
 
 import GoogleBox from './GoogleBox/GoogleBox'

@@ -3,7 +3,7 @@ import { Gear, Trash, UserRectangle, Link, X } from "phosphor-react";
 
 import styles from './MaestroMenu.module.scss';
 
-import Button from "../../../components/Button/Button";
+import {Button} from "../../../components/Button/Button";
 import Modal from "../../../components/Modal/Modal";
 import { useNavigate } from "react-router-dom";
 

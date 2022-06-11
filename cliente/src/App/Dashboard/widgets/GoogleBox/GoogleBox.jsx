@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import styles from './GoogleBox.module.scss';
 
 import { Copy, ArrowSquareOut, Trash } from "phosphor-react";
-import Button from "../../../../components/Button/Button";
+import { Button } from "../../../../components/Button/Button";
 
 export default function GoogleBox({ title, description, onPress, logo }) {
 

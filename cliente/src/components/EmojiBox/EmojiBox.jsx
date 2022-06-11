@@ -26,7 +26,7 @@ export default function EmojiBox({type, label, color, width}) {
             type === "loading" ?
             <LoadingEm color={colorEmoji} width={width}/> 
             : null}
-            <p style={{color: colorEmoji}}>{label}</p>
+            <p style={{color: colors.secondary}}>{label}</p>
         </div>
     )
 }

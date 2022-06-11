@@ -6,10 +6,10 @@ import colors from '../../utils/colors';
 
 import { project } from '/src/utils/project.js'
 
-import Logo from "../../components/Logo";
+import {Logo} from "../../components/Logo";
 
 import Input from '/src/components/Input/Input';
-import Button from "/src/components/Button/Button";
+import {Button} from "/src/components/Button/Button";
 import EmojiBox from "/src/components/EmojiBox/EmojiBox";
 
 import { inputInfo } from '/src/utils/inputs.js';
